@@ -1,0 +1,10 @@
+{
+    "name": "guigna-jsx",
+    "private": true,
+    "main": "dist/jsx.js",
+    "module": "dist/jsx.mjs",
+    "source": "jsx.ts",
+    "peerDependencies": {
+        "guigna": "^0.1.0"
+    }
+}

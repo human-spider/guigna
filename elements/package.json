@@ -1,0 +1,10 @@
+{
+    "name": "guigna-elements",
+    "private": true,
+    "main": "dist/elements.js",
+    "module": "dist/elements.mjs",
+    "source": "elements.ts",
+    "peerDependencies": {
+        "guigna": "^0.1.0"
+    }
+}

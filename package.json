@@ -1,0 +1,38 @@
+{
+  "name": "guigna",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "source": "src/index.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "default": "./dist/index.js"
+    },
+    "./elements": {
+      "import": "./elements/dist/elements.mjs",
+      "default": "./elements/dist/elements.js"
+    },
+    "./jsx": {
+      "import": "./jsx/dist/jsx.mjs",
+      "default": "./jsx/dist/jsx.js"
+    },
+    "./package.json": "./package.json",
+    "./jsx/package.json": "./jsx/package.json",
+    "./elements/package.json": "./elements/package.json"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js"
+  },
+  "author": "Mykhailo Gryshchenko",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.15.9"
+  },
+  "dependencies": {
+    "redom": "^3.29.1",
+    "tiny-throttle": "^1.0.3"
+  }
+}
